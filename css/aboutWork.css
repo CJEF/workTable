@@ -1,0 +1,37 @@
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px 15px;
+    background-color: rgb(243, 243, 127);
+}
+td {
+    background-color: rgba(174, 255, 149, 0.692);
+    padding: 10px 15px;
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table__inner {
+    overflow-x: auto;
+}
+ul {
+    margin: 0;
+}
+@media (max-width: 500px) {
+    td {
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+    th {
+        font-size: 15px;
+    }
+    ul {
+        padding-inline-start: 15px;
+    }
+}
